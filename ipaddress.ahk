@@ -10,10 +10,10 @@ SetWorkingDir %A_ScriptDir%
 
 Gui, Font, underline s20,
 Gui, Add, Text,, Computer Name:
-Gui, Font, norm s15,
+Gui, Font, norm s15 cGreen,
 Gui, Add, Text,, %A_ComputerName%
 Gui, Font, underline s20, 
-Gui, Add, Text,, Your VNC Number is:
+Gui, Add, Text,, Your IP Address is:
 Gui, Font, norm s15,
 
 if A_IPAddress1 contains 192.168.,10.,172.
