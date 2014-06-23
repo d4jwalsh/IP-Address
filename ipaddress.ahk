@@ -8,6 +8,10 @@ SetWorkingDir %A_ScriptDir%
 ;Created by Daniel Walsh
 ;========================================================================
 
+Gui, Font, underline s20,
+Gui, Add, Text,, Computer Name:
+Gui, Font, norm s15,
+Gui, Add, Text,, %A_ComputerName%
 Gui, Font, underline s20, 
 Gui, Add, Text,, Your VNC Number is:
 Gui, Font, norm s15,
