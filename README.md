@@ -3,4 +3,4 @@ IP-Address
 
 AutoHotkey
 
-Simple Gui to show valid IP address
+Simple Gui to show valid IP address, and Computer name.
