@@ -12,7 +12,7 @@ Gui, Font, underline s20,
 Gui, Add, Text,, Computer Name:
 Gui, Font, norm s15 cGreen,
 Gui, Add, Text,, %A_ComputerName%
-Gui, Font, underline s20, 
+Gui, Font, underline cBlack s20, 
 Gui, Add, Text,, Your IP Address is:
 Gui, Font, norm s15,
 
