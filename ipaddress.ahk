@@ -41,7 +41,7 @@ if A_IPAddress4 contains 192.168.,10.,172.
 }
 
 Gui, Add, Button, h50 w100, Close
-Gui, Show,, VNC Number
+Gui, Show,, IP Address
 Return
 
 GuiClose:
